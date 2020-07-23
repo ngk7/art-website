@@ -47,7 +47,7 @@ body{
 	text-align: center;
 }
 #nav-list a:hover {
-	background:#000;
+	background:#808080;
 }
 #nav-list a span{
 	font-size: 1.8em;
