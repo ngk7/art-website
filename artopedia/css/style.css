@@ -47,7 +47,7 @@ body{
 	text-align: center;
 }
 #nav-list a:hover {
-	background-color:#808080;
+	background-color:grey;
 }
 #nav-list a span{
 	font-size: 1.8em;
