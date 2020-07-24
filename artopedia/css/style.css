@@ -52,7 +52,10 @@ body{
 #nav-list a span{
 	font-size: 1.8em;
 }
-
+#contact a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
 #contact{
 	margin-top: 5px;
 }
