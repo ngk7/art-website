@@ -52,17 +52,22 @@ body{
 #nav-list a span{
 	font-size: 1.8em;
 }
+#contact a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
 #contact{
 	margin-top: 5px;
 }
 #contact a {
 	text-align: right;
 	padding-bottom: 0;
+	font-size: 25px;
 }
 #contact div{
 	color:#557c3e;
 	text-align: right;
-	padding-right: 15px;
+	padding-right: 25px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border:1px solid #61122f;
@@ -251,6 +256,8 @@ color: #e7bc0f;
 }
 
 
+
+
 /***largedevonly***/
 @media (min-width: 1200px){
 .container .jumbotron{
@@ -265,6 +272,7 @@ color: #e7bc0f;
 	padding-left: 0px;
 
 }
+
 }
 /*med-dev-only*/
 @media (min-width: 992px) and (max-width: 1199px){
@@ -280,6 +288,7 @@ color: #e7bc0f;
 	box-shadow: 0 0 50px #3f0c1f;
 	border:2px solid #3f0c1f;
 }
+
 }
 /*small devonly*/
 @media (min-width: 768px) and (max-width:991px){
@@ -351,7 +360,7 @@ margin-right: 5px;
 	margin-bottom: 0;
 
 }
-.panel-foote section hr{
+.panel-footer section hr{
 	width:50%;
 }
 
@@ -364,6 +373,7 @@ margin-right: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
+
 #but-page{
 	font-size: .7em;
 	margin-right: 5px;
