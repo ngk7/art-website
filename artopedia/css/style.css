@@ -272,6 +272,10 @@ color: #e7bc0f;
 	padding-left: 0px;
 
 }
+#contact a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
 
 }
 /*med-dev-only*/
@@ -288,7 +292,10 @@ color: #e7bc0f;
 	box-shadow: 0 0 50px #3f0c1f;
 	border:2px solid #3f0c1f;
 }
-
+#contact a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
 }
 /*small devonly*/
 @media (min-width: 768px) and (max-width:991px){
@@ -307,6 +314,10 @@ color: #e7bc0f;
 	margin-left: 50px;
 	padding-left: 50px;
 
+}
+#contact a span{
+	font-size: 1em;
+	margin-right: 5px;
 }
 }
 /*xs-dev-only*/
