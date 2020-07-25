@@ -1,13 +1,14 @@
 body{
-	font-size: 16px;
+	font-size: 17px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: #ffdab9;
 	font-family: 'Comic Neue', cursive;
+	font-weight: bold;
 
 }
 /**header**/
 #header-nav {
-	background-color: #f6b319;
+	background-color: #d0f2ec;
 	border-radius: 0;
 	border:0;
 }
@@ -21,7 +22,7 @@ body{
 }
 .navbar-brand h1{ /*name*/
 	font-family: 'Merienda One', cursive;
-	color: #557c3e;
+	color: #008b79;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -105,6 +106,12 @@ body{
 #avai{
 	color:pink;
 }
+#col-categories-title + div{
+	color: black;
+}
+.visible-xs{
+	border-color: grey;
+}
 
 
 
@@ -118,7 +125,7 @@ body{
 	padding: 0;
 }
 #bio-tile:hover , #ra-tile:hover , #collections-tile:hover{
-	box-shadow: 0 1px 5px 1px #cccccc;
+	box-shadow: 0 1px 5px 1px darkgrey;
 }
 #bio-tile{
 	background: url('../images/bio-tile.jpg') no-repeat;
@@ -188,9 +195,11 @@ body{
 	text-align: center;
 	margin-top: -15px;
 	margin-right: -15px;
+	color: #000;
 }
 .col-art-tile .col-art-des span{
 	font-size: 0.8em;
+	color:#000;
 }
 .col-art-photo {
 	position: relative;
@@ -214,11 +223,14 @@ body{
 }
 .col-art-description{
 	padding-right: 30px;
+	color:#000;
 }
 h3.col-art-title{
 margin:0 0 10px;
-color: #e7bc0f;
+color: #951c49;
+
 }
+
 .col-art-details{
 	font-size: 0.9em;
 	font-style: italic;
@@ -261,7 +273,7 @@ color: #e7bc0f;
 /***largedevonly***/
 @media (min-width: 1200px){
 .container .jumbotron{
-	background:url('../images/jumbotron_1200.jpg') no-repeat;
+	background:url('../images/jumbotron_1200.png') no-repeat;
 	height: 675px;
 	box-shadow: 0 0 50px #3f0c1f;
 	border:2px solid #3f0c1f;
@@ -287,7 +299,7 @@ color: #e7bc0f;
 		margin:5px 5px 5px 0;
 	}
 	.container .jumbotron{
-	background:url('../images/jumbotron_992.jpg') no-repeat;
+	background:url('../images/jumbotron_992.png') no-repeat;
 	height: 558px;
 	box-shadow: 0 0 50px #3f0c1f;
 	border:2px solid #3f0c1f;
@@ -300,7 +312,7 @@ color: #e7bc0f;
 /*small devonly*/
 @media (min-width: 768px) and (max-width:991px){
 .container .jumbotron{
-	background:url('../images/jumbotron_768.jpg') no-repeat;
+	background:url('../images/jumbotron_768.png') no-repeat;
 	height: 432px;
 	box-shadow: 0 0 50px #3f0c1f;
 	border:2px solid #3f0c1f;
@@ -350,7 +362,7 @@ margin-right: 5px;
 	margin:0 20px;
 	padding-top: 10px;
 	border:2px solid #fff;
-	background-color: #f6b319;
+	background-color: #66d5c7;
 	color: #951c49;
 
 
