@@ -481,6 +481,7 @@ margin-right: 5px;
     border: 0;
     padding: 13px;
     font-size: 16px;
+    color: #000000;
 }
 #newsletter-wrapper:not(.password-form#newsletter-wrapper) {
     color:#000000;
