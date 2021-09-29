@@ -483,7 +483,7 @@ margin-right: 5px;
     font-size: 16px;
 }
 #newsletter-wrapper:not(.password-form#newsletter-wrapper) {
-    color: var(--header-text);
+    color:#000000;
     padding: 7px 0;
     display: flex;
     justify-content: center;
